@@ -10,7 +10,8 @@ Tool that exports your [Omnivore](https://omnivore.app/home) articles to [Bear](
 
 ## Usage
 ```sh
-bun install && bun index.ts --api-key=<MY_OMNIVORE_API_KEY>  --from-scratch=true --archived-only=true --parent-tag=omnivore
+bun install
+bun index.ts --api-key=<MY_OMNIVORE_API_KEY>  --from-scratch=true --archived-only=true --parent-tag=omnivore
 ```
 
 ## Arguments
